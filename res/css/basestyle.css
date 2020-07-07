@@ -1,0 +1,250 @@
+    
+html {
+    /background-color: #aaaaaa;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: Calibri, arial, helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #80bfff;
+}
+
+#page-wrapper {
+  margin: 10px;
+  width: 1900px;
+  display: flex;
+}
+
+.panel {
+  margin: 1px;
+  background-color: #aaaaaa;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+input {
+  margin: 0px 10px 0px 10px;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonWrapper {
+    float: left;
+    margin: auto 10px auto 10px;
+    display: inline;
+}
+
+.container {
+    float: left;
+    margin: 0px 1px 1px 0px;
+    background: #cccccc;
+}
+
+.video {
+    
+}
+
+.control {
+
+
+}
+
+.videoContainer0 {
+    float: left;
+}
+
+.widgetContainer {
+    width: 100px;
+    float: left;
+}
+
+.box {
+    background: #ffffff;
+    width: 250px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.videoButtonBar {
+    /*width: 924px;*/
+    height: 50px;
+    /*position: relative;*/
+    /*left: 50px;
+    bottom: 100px;*/
+}
+
+.videoButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0px;
+  margin: auto;
+  background: #a1a1a1;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+    
+#wrapper0 {
+    width: 1880px;
+    height: 960px;
+    margin: 10px auto 10px 10px;
+    background: #808080;
+}
+.placeholderDiv {
+  border: 1px solid black;
+  flex: 1;
+}
+
+
+#content0 {
+    margin: 0px;
+}
+
+#lessonTitle {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    width: 1004px;
+}
+
+#lessonName {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    width: 234px;
+}
+
+#video-container {
+    width: 1366px;
+    /*background: #eeeeee;*/
+}
+#video {
+  background: #cccccc;
+  width: 1366px;
+  height: 768px;
+  line-height: 768px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#under-video {
+    
+}
+
+.prbar {
+    height: 16px;
+    width: 1346px;
+    margin: 5px 10px 5px 10px;
+    vertical-align: middle;
+    float: left;
+    display: block;
+}
+
+#right-widget {
+    background: #e0e0e0;
+    min-height: 746px;
+}
+#left-panel {
+  width: 1366px;
+
+}
+#right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#player-nav {
+  height: 50px;
+  align-items: center;
+
+
+}
+#player-container {
+}
+.playerPanel {
+  margin: 0px 0px 1px 0px;
+  background-color: #fefefe;
+  display: flex;
+}
+#player-control {
+  height: 80px;
+  flex-direction: column;
+}
+#seek-bar {
+  height: 16px;
+}
+#player-control-second-row {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 5px 5px 5px;
+  display: flex;
+}
+#player-control-first-row {
+  margin: 5px 5px 5px 5px;
+  display: flex;
+}
+.timeDisplay {
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+}
+#title-info {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  font-size: 24px;
+  text-align: left;
+}
+.controlPanel {
+  margin: 0px 0px 1px 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: #fefefe;
+  display: flex;
+}
+#button-arm-record {
+  border-radius: 5px;
+  border: none;
+  margin: 5px 5px 5px 5px;
+  height: 50px;
+}

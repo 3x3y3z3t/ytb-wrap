@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="res/css/basestyle.css" />
+    <style></style>
+
+    <title>Do we need a title here?? This is an embed content anyway..</title>
+  </head>
+  <body>
+    <div class="wrapper" id="page-wrapper">
+      <div class="panel" id="left-panel">
+        <form class="playerPanel" id="player-nav" action="javascript:init()">
+          <div style="margin: 0px 0px 0px 20px;">URL</div>
+          <input type="url" placeholder="https://youtube.com/" id="url-input"/>
+          <div style="margin: 0px 5px 0px auto">
+            <button class="videoButton" onClick="action">-></button>
+          </div>
+        </form><!--player-nav-->
+        <div class="playerPanel" id="player-container">
+          <div id="video">#video-itself</div>
+          <!--iframe width="560" height="315" src="https://www.youtube.com/embed/n8Z7mUOGEAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+        </div><!--player-container-->
+        <div class="playerPanel" id="player-control">
+          <div id="player-control-first-row">
+            <input type="range" id="seek-bar" value="0" min="0" max="1000"/>
+          </div>
+          <div id="player-control-second-row">
+            <button class="videoButton" id="play" style="margin: 0px 5px 0px 5px" onclick="javascript:tryPlayOrPause()">|></button>
+            <div class="timeDisplay" id="time-current">00:00:00</div>
+            <div style="margin: -3px">/</div>
+            <div class="timeDisplay" id="time-duration">00:00:00</div>
+            <input type="range" id="volume-control" value="0" style="flex: 0; width: 150px"/>
+            <div class="placeholderDiv">###</div>
+            <div></div>
+          </div>
+        </div><!--player-control-->
+      </div><!--left-panel-->
+      <div class="panel" id="right-panel">
+        <div class="controlPanel" id="title-info">#title-info</div>
+        <div class="controlPanel" >
+          <input type="text" placeholder="00:00:00" style="flex: 0; width: 60px; text-align: right;"/>
+          <button class="controlButton" id="button-seek" onclick="">Seek</button>
+        </div>
+        <div class="placeholderDiv">###</div>
+        <button class="controlButton" id="button-arm-record">Arm For Record</button>
+      </div><!--right-panel-->
+      
+    </div>
+</body>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="res/js/script.js" ></script>
+</html>
